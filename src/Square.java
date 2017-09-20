@@ -5,4 +5,9 @@ public class Square {
         this.a = a;
     }
 
+    double calculateArea() {
+        ShapeCalculator shape = new ShapeCalculator();
+        double res = shape.squareArea(this);
+        return res;
+    }
 }

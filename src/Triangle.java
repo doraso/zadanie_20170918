@@ -8,4 +8,10 @@ public class Triangle {
         this.b = b;
         this.c = c;
     }
+
+    double calculatePerimeter() {
+        ShapeCalculator shape = new ShapeCalculator();
+        double res = shape.trianglePerimeter(this);
+        return res;
+    }
 }

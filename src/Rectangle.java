@@ -7,4 +7,9 @@ public class Rectangle {
         this.b = b;
     }
 
+    double calculatePerimeter() {
+        ShapeCalculator shape = new ShapeCalculator();
+        double res = shape.rectPerimeter(this);
+        return res;
+    }
 }
